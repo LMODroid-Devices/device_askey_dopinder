@@ -6,8 +6,3 @@
 
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/lmodroid_dopinder.mk
-
-COMMON_LUNCH_CHOICES := \
-    lmodroid_dopinder-eng \
-    lmodroid_dopinder-user \
-    lmodroid_dopinder-userdebug
