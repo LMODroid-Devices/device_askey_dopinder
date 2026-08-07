@@ -1,6 +1,5 @@
 #
-# Copyright (C) 2021-2023 The LineageOS Project
-#
+# SPDX-FileCopyrightText: The LineageOS Project
 # SPDX-License-Identifier: Apache-2.0
 #
 
@@ -30,6 +29,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     NetflixConfig \
     DopinderNetflixConfigOverlay
+
+## Soong Namespaces
+PRODUCT_SOONG_NAMESPACES += \
+    $(LOCAL_PATH)
 
 ## Wi-Fi
 PRODUCT_CFI_INCLUDE_PATHS += hardware/realtek/wlan/wpa_supplicant_8_lib
